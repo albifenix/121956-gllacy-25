@@ -6,7 +6,183 @@
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+  	<header class="main-header">
+  		 
+  		 <nav class="main-nav">
+  		 	<a class="main-header-logo"><img src="#" width="" height="" alt="Логотип сайта Gllacy"></a>
+
+  		 	<ul class="main-menu">
+  		 		
+  		 		<li><a href="catalog.html">Каталог</a>
+
+  		 			<ul class="sub-menu">
+  		 				<li><a href="#1">Новинки</a></li>
+  		 				<li><a href="#2">Сливочное</a></li>
+  		 				<li><a href="#3">Щербеты</a></li>
+  		 				<li><a href="#4">Фруктовый лёд</a></li>
+  		 			</ul>
+
+  		 		</li>
+
+
+  		 		<li><a href="#delivery_payment">Доставка и оплата</a></li>
+  		 		<li><a href="#company">О компании</a></li>
+
+  		 	</ul>
+
+  		 
+
+  		<!-- Форма поиска по сайту -->
+
+  		 	<ul class="site-search">
+  		 		<li>
+  		 			<form class="main-header-search">
+		  		 		<p>
+		  		 			<input type="search" name="q">
+		  		 		</p>
+		  		 	</form>
+  		 		</li>
+  		 	</ul>
+
+  		<!-- Вход/регистрация для посетителя  -->
+  		 	<ul class="user-nav">	
+  		 		<li class="login-link">Вход</li>
+			</ul>
+
+		 </nav>
+
+		<!-- Карточка товара/корзина -->
+
+		<!-- Здесь я не совсем понимаю карточка товара должна быть частью навигации сайта?  Или это самостоятельный элемент?-->
+		<section class="basket">
+			<div class="card">
+				<ul class="user-card">
+					<li>Пусто</li>
+				</ul>
+			</div>
+		</section>
+
+	
+  		 <p class="shedule">
+  		 	С 10 до 20, ежедневно<br>
+  		 	8 812 450-25-25
+  		 </p>
+
+  	</header>                 
+
+  	<!-- Основное содержание страницы -->
+  	<main>
+
+	  	<section class="advantages">
+
+	  		<h1 class="site-title">Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес</h1>
+
+		  		<p class="making">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
+
+		  		<p class="ingridients">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья. </p>
+
+		  		<p class="purchase">Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
+
+		  		<p class="delivery">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
+
+	  	</section>
+
+	  	<article class="blog">
+	  		<header class="blog-header">
+	  			<h2 class="visually-hidden"> Блог </h2>
+
+	  			<b class="new-in-blog">Новое в нашем блоге</b>
+	  			<!--
+	 				<h3 class="new-in-blog">Новое в нашем блоге</h3>
+					-->
+
+	 				<p class="blog-title"> <a href="#">10 способов сервировки фруктовых щербетов к столу </a></p>
+
+	 				<!--
+	 				<h1 class="blog-heading"> <a href="#">10 способов сервировки фруктовых щербетов к столу </a></h1>
+					-->
+	  		</header>
+
+	  	</article>
+
+	  	<section class="subscription">
+
+	  		<h2 class="visually-hidden"> Подписка на рассылку </h2>
+	  		<p class="subcribe">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+
+	  		<!-- Здесь будет форма -->
+	  		
+
+	  	</section>
+
+
+
+    </main>
+
+    <footer class="main-footer">
+    	<h2 class="visually-hidden">Подвал сайта</h2>
+    	<div class="footer-social">
+    		<h3 visually-hidden></h3>
+    		<ul>
+    			<li><a class="social-button" href="#">Твиттер</a></li>
+    			<li><a class="social-button" href="#">Инстаграм</a></li>
+    			<li><a class="social-button" href="#">Фейсбук</a></li>
+    			<li><a class="social-button" href="#">Вконтакте</a></li>
+    		</ul>
+
+    	</div>
+
+    	<nav class="main-footer-nav">
+    	<ul class="footer-links">
+    		<li><a href="#suppliers">Для поставщиков</a></li>
+    		<li><a href="#production">О производстве</a></li>
+    		<li><a href="#documents">Наши документы</a></li>
+    		<li><a href="#standarts">Экологические стандарты</a></li>
+    	</ul>
+    	</nav>
+
+    	<div class="logo-htmlacademy">
+
+    		<!-- Можно ли логотип сделать элементом списка? Или будет лучше просто разметить как ссылку?-->
+    		<a class="logo-htmlacademy-small"><img src="#" width="" height="" alt="Логотип HTML Academy"></a>
+
+    		<ul class="htmlacademy-links">    		
+    			<li>Сделано в <a href="https://htmlacademy.ru/">HTML Academy</a> © 2019</li>	
+    		</ul>
+
+    	</div>
+
+    </footer>
+
+
+    <section class="modal modal-search">
+    	
+    	<!--
+    		<form>
+    		<input type="search" name="search" placeholder="Что ищем?">
+    		<form>
+    	-->
+
+    </section>
+
+    <section class="modal modal-login">
+    	<h2 class="visually-hidden">Форма входа</h2>
+    	<ul class="login-links">
+    		<li><a href="#">Забыли пароль?</a></li>
+    		<li><a href="#">Новая регистрация</a></li>
+    	</ul>
+    	
+    	<!-- Здесь будет форма -->
+
+    </section>
+
+    <section class="modal modal-feedback">
+    	<h1>Мы обязательно вам ответим!</h1>
+    		<!-- Здесь будет форма -->
+    	<span class="modal-close">x</span>
+	</section>
+
+
 
   </body>
 </html>
